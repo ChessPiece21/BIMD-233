@@ -1,2 +1,2 @@
 # UW-Web-Programming
-Work from my web programming class at UW (IMD 233), Spring 2021.
+Work from my web programming class in Spring 2021.
