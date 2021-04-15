@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Style2.css"></lik> <!--external stylesheet-->
+    <style>
+        div {
+            background-color: #FFF3BF; /* internal stylesheet */
+        }
+        p {
+            color: #AA0000;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>These are words not affected by internal CSS.</h1> 
+
+        <div>
+            <p>These are words and a section affected by internal CSS.</p>
+        </div>
+        <h1 style="color:#0000AA; text-align:center">This is a heading affected by inline CSS.</h1> <!--inline stylesheet-->
+        <p style="color:#FF0000; text-align:center">This is a paragraph affected by inline CSS.</p>
+    </body>
+</html>
