@@ -4,3 +4,10 @@ p {
     margin-right: 50px;
     margin-left: 180px;
 }
+
+h3 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 50px;
+    padding-left: 100px;
+}
