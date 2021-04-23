@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel "stylesheet" href="Style5.css"></link>
+        <style>
+            * {
+                background-color: black;
+            }
+            p {
+                color: white;
+            }
+            #dotted {
+                outline-style: dotted;
+                outline-color: red;
+            }
+            #dashed {
+                outline-style: dashed;
+                outline-color: blue;
+            }
+
+            #solid {
+                outline-style: solid;
+                outline-color: lime;
+            }
+
+            #double {
+                outline-style: double;
+                outline-color: tomato;
+                outline-width: thin;
+            }
+
+            #groove {
+                outline-style: groove;
+                outline-color: yellow;
+                outline-width: thick;
+            }
+
+            #ridge {
+                outline-style: ridge;
+                outline-color: silver;
+                outline-width: 4px;
+            }
+
+            #inset {
+                outline-style: inset;
+                outline-color: plum;
+            }
+
+            #outset {
+                outline-style: outset;
+                outline-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="dotted">Why are there dots around me?</p>
+        <p id="dashed">Oh no, they're bigger on my end!</p>
+        <p id="solid">At least I'm alright, I'm safe in my home.</p>
+        <p id="double">I don't have a home but I do have two walls.</p>
+        <p id="groove">This is groovy.</p>
+        <p id="ridge">I feel like I'm trapped.</p>
+        <p id="inset">My roof is really dark...</p>
+        <p id="outset">Huh, my floor is the same way!</p>
+    </body>
+</html>
