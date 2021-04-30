@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Grids</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1>Equal Columns</h1>
+  <p>They have to add up to 12.</p>
+  <div class="row">
+    <div class="col-sm-1" style="background-color:lavender;">1</div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">1</div>
+    <div class="col-sm-1" style="background-color:lavender;">1</div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">1</div>
+    <div class="col-sm-1" style="background-color:lavender;">1</div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">1</div>
+    <div class="col-sm-1" style="background-color:lavender;">1</div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">1</div>
+    <div class="col-sm-1" style="background-color:lavender;">1</div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">1</div>
+    <div class="col-sm-1" style="background-color:lavender;">1</div>
+    <div class="col-sm-1" style="background-color:lavenderblush;">1</div>
+  </div>
+  <div class="row">
+  	<div class="col-sm-4" style="background-color: lavender;">4</div>
+	<div class="col-sm-4" style="background-color: lavenderblush;">4</div>
+    <div class="col-sm-4" style="background-color: lavender;">4</div>
+  </div>
+  <div class="row">
+  	<div class="col-sm-6" style="background-color: lavender;">6</div>
+	<div class="col-sm-6" style="background-color: lavenderblush;">6</div>
+  </div>
+  <div class="row">
+  	<div class="col-sm-8" style="background-color: lavenderblush;">8</div>
+    <div class="col-sm-4" style="background-color: lavender;">4</div>
+  </div>
+  <div class="row">
+  	<div class="col-sm-12" style="background-color: lavender;">One of these rows ISN'T equal-length.</div>
+  </div>
+</div>
+
+</body>
+</html>
