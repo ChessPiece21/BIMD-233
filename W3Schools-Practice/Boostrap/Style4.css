@@ -1,0 +1,30 @@
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border-radius:.25rem;
+}
+
+.alert-success {
+    color: darkslategray;
+    background-color: palegreen;
+    border: 1px ridge darkslategray;
+}
+
+.alert-info {
+    color: darkblue;
+    background-color: paleturquoise;
+    border: 1px ridge darkblue;
+}
+
+.alert-warn {
+    color:olive;
+    background-color: palegoldenrod;
+    border: 1px ridge olive;
+}
+
+.alert-danger {
+    color:maroon;
+    background-color: palevioletred;
+    border: 1px ridge maroon;
+}

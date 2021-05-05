@@ -1,0 +1,12 @@
+.btn {
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    cursor: pointer;
+    position:relative;
+    top:50%; 
+    left:50%;
+}
