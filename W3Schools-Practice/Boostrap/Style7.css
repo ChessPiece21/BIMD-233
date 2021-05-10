@@ -1,0 +1,22 @@
+.badge {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+.badge-success {
+    background-color: darkgreen;
+}
+
+.badge-warning {
+    color: black;
+    background-color: gold;
+}
+
+.badge-danger {
+    background-color: firebrick;
+}
+
+.badge-info {
+    background-color: cornflowerblue;
+}
