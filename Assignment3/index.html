@@ -6,7 +6,7 @@
 			<title>Team 4, B IMD 233 w/ CSS </title>
 			<meta name="description" content="">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="styleshhet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 			<!--This is my internal CSS, the rest is what I added to style.css -->
 			<style>
@@ -24,10 +24,10 @@
 					background-color: white;
 				}
 				
-				.mt-6 {
+				.sm-1 {
 					border-radius: 25px;
 					background-color: lightgray;
-					padding-right: 25px;
+                    position: absolute;
 				}
   
 			       .topnav a {
@@ -84,16 +84,13 @@
 				a {					
 					font-family: sans-serif;
 					text-decoration: underline;
+					color: darkblue;
 				}
 				
-				.flexlink {
-					color: white;
-				}
-				
-				.tdjoe {
+				td {
 					font-family: sans-serif;
 					font-weight: 3;
-					border: 1px ridge black;
+					border: 1px solid black;
 				}
 				
 				.majorname {
@@ -117,13 +114,18 @@
 				}
 				
 				a:hover {
-					color: #FFFFFF;
+					color: blueviolet;
 					font-weight: 1;
-					background-color: #0000EE;
 				}
 				
-				.buttonlink {
+				.boxlink {
 					color: black;
+				}
+				
+				.boxlink:hover {
+					color: white;
+					background-color: black;
+					font-weight: 1;
 				}
 				
 			</style>
@@ -143,10 +145,10 @@
 			</div>
 			<span>
 			<div class="alert alert-info"> <!--Bootstrap alert-->
-            		<strong>Did you know...?</strong>
-            		<br>
-			Joe writes for <em>The Husky Herald</em>, UWB's campus newspaper. <a href="https://thehuskyherald.com/">Click here to learn more.</a>
-        		</div>
+            			<strong>Did you know...?</strong>
+            			<br>
+				Joe writes for <em>The Husky Herald</em>, UWB's campus newspaper. <a href="https://thehuskyherald.com/">Click here to learn more.</a>
+        			</div>
 			</span>
 			
 			<div class="container mt-1">
@@ -174,57 +176,66 @@
 				<li><em>Rutherford Falls</em>: Pretty good so far, I'm only 3 episodes in. I love the character dynamics and the offbeat humor. Score: <strong>6/10</strong></li>
 			</ol>
 				
+			<hr>
+			Here's a new table: I recently went on a random hex color generator, and challenged myself to assign new names to the first 6 colors I generated. Here's the result.
 			<center>
 			<table class="tablejoe">
 			<tr>
-				<td style="color:#000000"><strong>Skill:</strong></td>
-				<td style="color:#000000"><strong>Proficiency:</strong></td>	
+				<td><strong>Hex Code:</strong></td>
+				<td><strong>Color Name:</strong></td>	
 			</tr>
 			<tr>
-				<td class="tdjoe">Guitar:</td>
+				<td style="background-color: #FB8136; color: white">#FB8136</td>
 				<!--Mark Comment: class instead of id again. ids are unique!-->
-				<td class="tdjoe">0/10, I've played for 11 years but have improved by 0% over those years.</td>
+				<td>President Forty-Five</td>
 			</tr>
 			<tr>
-				<td class="tdjoe">Photoshop:</td>
-				<td class="tdjoe">10/10, it's fun to use.</td>
+				<td style="background-color: #8DB255; color: white">#8DB255</td>
+				<td>Insufferable Vegan Green</td>
 			</tr>
 			<tr>
-				<td class="tdjoe">Making Memes:</td>
-				<td class="tdjoe">11/10, no further questions asked.</td>
+				<td style="background-color: #BB7796; color: white">#BB7796</td>
+				<td>Days of Fuchsia Passed</td>
+			</tr>
+			<tr>
+				<td style="background-color: #4D8FAC; color: white">#EBF6F7</td>
+				<td>Bluepilled</td>
+			</tr>
+			<tr>
+				<td style="background-color: #FF3500; color: white">#FF3500</td>
+				<td>Gulag Debris</td>
+			</tr>
+			<tr>
+				<td style="background-color: #28006D; color: white">#28006D</td>
+				<td>Indigo Fund Me</td>
 			</tr>
 			</table>
 			</center>
 				
 			<p id="textjoe">Finally, here's an image:</p>
 			<img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2012/03/04215201/03_26_07_KS_01.jpg" width="500" alt="The cherry blossoms at the University of Washington's Quadrangle (Quad), pink-tinted trees in the springtime with students walking around them." title="UW Cherry Blossoms">
-			<hr>
 			
-			<div class="container mt-6"><!--Boostrap Flexboxes-->
+			<div class="container sm-1"><!--Boostrap Flexboxes-->
 				<h2 style="text-align: center">Flexboxes!</h2>
-				<p style="text-align: center">I listed 3 random things. Click the one you want.</p>
-			<div class = "flex-container">
-  				<div class="card odd flex-item" style="width: 18rem; background-color: purple">
-  					<div class="card-body">
-   				 		<a href="https://orteil.dashnet.org/cookieclicker/" target="_blank" style="color:white">I want a cookie!</a>
-	  				</div>
-				</div>
- 				<div class="card even flex-item" style="width: 18rem; background-color: green">
-   					<div class="card-body">
-  						<a href="https://icanhas.cheezburger.com/" target="_blank" style="color: white">I want a cheeseburger!</a>
-  					</div>
-				</div>
-  				<div class="card odd flex-item" style="width: 18rem; background-color: red">
-  					<div class="card-body">
-    						<a href="https://theuselessweb.com/" target="_blank" style="color: white">I want whatever...</a>
-  					</div>
-				</div>
+				<p style="text-align: center">I listed 3 random things. Click the one you like for a surprise.</p>
+			        <div class="d-flex p-3 bg-secondary text-white">
+           				<div class="p-2 bg-success"><a class="boxlink" href="https://orteil.dashnet.org/cookieclicker/">I want a cookie!</a></div>
+           				<div class="p-2 bg-warning"><a class="boxlink" href="https://icanhas.cheezburger.com/">I want a cheeseburger!</a></div>
+           				<div class="p-2 bg-danger"><a class="boxlink" href="https://theuselessweb.com/">I want whatever...</a></div>
+        			</div>
+
+        			<p>Here's the inline version for readability.</p>
+        			<div class="d-inline-flex p-3 bg-secondary text-white">
+            				<div class="p-2 bg-success"><a class="boxlink" href="https://orteil.dashnet.org/cookieclicker/">I want a cookie!</a></div>
+            				<div class="p-2 bg-warning"><a class="boxlink" href="https://icanhas.cheezburger.com/">I want a cheeseburger!</a></div>
+            				<div class="p-2 bg-danger"><a class="boxlink" href="https://theuselessweb.com/">I want whatever...</a></div>
+         			</div>
 				<hr>
 				<p>Also, here's a button:</p>
 				<button type="button" class="btn btn-primary"><a style="color:white" class="button-link" href="https://www.youtube.com/watch?v=F3L376eH09Q">CLICK ME.</a></button>
-			<br>
-			<br>
-			<br>
+				<br>
+				<br>
+				<br>
 				<div class="alert alert-danger">
 					<strong>ALERT!</strong><br>
 					You have made it to the end of this page.</div>
